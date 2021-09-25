@@ -1,12 +1,15 @@
 // ? variables & functions
-@import "variables";
+@import "./utilities/functions";
+@import './utilities/variables';
 
 // ?  base & layout
 @import "base";
 
 // ? colors
+@import "utilities/colors";
 
 // ? collections of (button, card, navbar etc)
 @import "collections/card";
+@import "collections/button";
 
 // ? utilities (margin, padding, opacity, etc)
