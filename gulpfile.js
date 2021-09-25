@@ -10,9 +10,9 @@ function buildStyles() {
   return (
     src("./src/**/*.scss")
       // input source file into compiler to turn into css
-      .pipe(sass({ outputStyle: "compressed", sourceMap: true }))
+      .pipe(sass({ outputStyle: "compressed"}))
       // remove un used css classes before compiling
-      .pipe(purgecss({ content: ["*.html"] }))
+      // .pipe(purgecss({ content: ["*.html"] }))
       // where to send the compiled css to
       .pipe(dest("./css"))
   );
