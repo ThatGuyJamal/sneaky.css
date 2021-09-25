@@ -3,6 +3,7 @@ build
 assets
 node_modules
 dist
+css
 # Ignore all "X" files:
 .woff
 .woff2
