@@ -6,7 +6,7 @@ let site = "https://github.com/ThatGuyJamal/sneaky.css"
  * A simple function to deploy the static site to github pages
  */
 async function deploy() {
-	await GitHub.publish("./docs", {
+	await GitHub.publish("./static", {
 		branch: "website",
 		repo: site,
 		message: "Sneaky.css has been updated!",

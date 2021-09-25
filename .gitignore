@@ -7,7 +7,7 @@ node_modules/
 # compile
 build/
 dist/
-
+static/
 # system 
 .vs
 
