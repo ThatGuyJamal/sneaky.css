@@ -1,0 +1,9 @@
+// importing the core from out lib folder
+// not needed but cleans the code
+
+// customize theme variables
+$secondary: indigo;
+$base-padding: 1rem;
+$base-border-thickness: 3px;
+
+@import "../lib/sass"

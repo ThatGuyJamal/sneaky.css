@@ -8,14 +8,14 @@ const purgecss = require("gulp-purgecss");
 function buildStyles() {
   // file to read when compiling
   return (
-    src("./lib/sass/**/*.scss")
-      // input source file into compiler to turn into css
-      .pipe(sass({ outputStyle: "compressed" }))
-      // remove un used css classes before compiling
-      .pipe(purgecss({ content: ["*.html"] }))
-      // where to send the compiled css to
-      .pipe(dest("./lib/css"))
-  );
+		src("./src/**/*.scss")
+			// input source file into compiler to turn into css
+			.pipe(sass({ outputStyle: "expanded", sourceMap: true }))
+			// remove un used css classes before compiling
+			.pipe(purgecss({ content: ["*.html"] }))
+			// where to send the compiled css to
+			.pipe(dest("./css"))
+	)
 }
 
 /**
