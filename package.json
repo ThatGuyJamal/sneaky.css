@@ -18,5 +18,8 @@
   },
   "scripts": {
     "format": "prettier --ignore-path .gitignore --write ."
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
