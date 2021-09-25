@@ -17,3 +17,7 @@ $ gulp
 [01:23:47] Starting 'watchTask'...
 ```
 If everything runs well you should see this output. For more questions please contact me on discord [@ThatGuyJamal](https://discords.com/bio/p/thatguyjamal)
+
+## Live example
+
+If you want to view a live exmaple, go to [hppt://example.live.github.com...](https://thatguyjamal.github.io/sneaky.css/)
