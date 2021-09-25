@@ -1,0 +1,11 @@
+# Ignore artifacts:
+build
+assets
+node_modules
+dist
+# Ignore all "X" files:
+.woff
+.woff2
+.eot
+.ttf
+.otf

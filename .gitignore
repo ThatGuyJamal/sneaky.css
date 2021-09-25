@@ -1,0 +1,26 @@
+# Node
+node_modules/
+
+# environment
+.env
+
+# compile
+build/
+dist/
+
+# system 
+.vs
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Logs
+logs
+*.log
+npm-debug.log*
