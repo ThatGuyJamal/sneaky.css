@@ -1,20 +1,20 @@
 // ? variables & functions
 @import "utilities/functions";
-@import 'utilities/variables';
+@import "utilities/variables";
 
 // ?  base & layout
 // base & layout
-@import 'base';
-@import 'breakpoints';
-@import 'utilities/grid';
+@import "base";
+@import "breakpoints";
+@import "utilities/grid";
 
 // ? colors
 @import "utilities/colors";
 
 // ? collections of (button, card, navbar etc)
-@import 'collections/card';
-@import 'collections/button';
-@import 'collections/navbar';
-@import 'collections/badge';
+@import "collections/card";
+@import "collections/button";
+@import "collections/navbar";
+@import "collections/badge";
 
 // ? utilities (margin, padding, opacity, etc)

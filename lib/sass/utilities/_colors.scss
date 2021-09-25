@@ -1,7 +1,6 @@
 // classes to help with color selectors
 // helps with light and dark functions by using sass keys for the css class names
 
-   
 @each $key, $val in $colors {
   .text-#{$key} {
     color: $val;
