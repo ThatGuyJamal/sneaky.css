@@ -2,6 +2,12 @@
 
 A custom sass lib for building css components.
 
+## Installing
+
+Installing sneaky.css is simple. Locate the [releases](https://github.com/ThatGuyJamal/sneaky.css/releases) tab and download the latest release. This will give you the full compiled sass lib in one index.css file. Simple ref it in your project and your good to go.
+
+If you have any problems please make an [issue](https://github.com/ThatGuyJamal/sneaky.css/issues)
+
 ## Self building
 
 This lib is not ready for real world use. For now you can run the lib locally. You need to use `gulp`. install it globally using `npm i -g gulp` or whatever command you wish. Then in the project root run `gulp`. This will compile the sass into css.
