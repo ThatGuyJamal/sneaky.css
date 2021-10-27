@@ -15,7 +15,7 @@
     "gulp-purgecss": "^4.0.3",
     "gulp-sass": "^5.0.0",
     "prettier": "^2.4.1",
-    "sass": "^1.35.2"
+    "sass": "^1.43.4"
   },
   "scripts": {
     "format": "prettier --ignore-path .gitignore --write ."
