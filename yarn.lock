@@ -433,10 +433,10 @@ commander@^2.18.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@^6.0.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
+commander@^8.0.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+  integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -958,7 +958,7 @@ glob-watcher@^5.0.3:
     normalize-path "^3.0.0"
     object.defaults "^1.1.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.6:
+glob@^7.0.3, glob@^7.1.1, glob@^7.1.6, glob@^7.1.7:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
@@ -1037,14 +1037,14 @@ gulp-cli@^2.2.0:
     v8flags "^3.2.0"
     yargs "^7.1.0"
 
-gulp-purgecss@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/gulp-purgecss/-/gulp-purgecss-4.0.3.tgz#8f4cbc741798eab3f924d7daaf990000a3b9be6f"
-  integrity sha512-MyLL/zqy90e6ADNC30MoZ+THm/XtDCtZwnrMDB49rXKovd56Z3KS/PKA8Y2Br3gUzwAz9ACvfb3V4Gz4OZPQdg==
+gulp-purgecss@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/gulp-purgecss/-/gulp-purgecss-4.1.2.tgz#8b3fb1a57a9a160e0029909b98567a116a872be9"
+  integrity sha512-Z158GVavIwS9yvNRNhwWRydGDAr04olueIr6W2aDV280VGaSs5DzzbBQl3sDSDHWhgBveCBwEH4LovPP+rfXsw==
   dependencies:
     glob "^7.1.6"
     plugin-error "^1.0.1"
-    purgecss "^4.0.3"
+    purgecss "^4.1.2"
     through2 "^4.0.1"
 
 gulp-sass@^5.0.0:
@@ -1565,15 +1565,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
-nanocolors@^0.1.5:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.12.tgz#8577482c58cbd7b5bb1681db4cf48f11a87fd5f6"
-  integrity sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==
-
-nanoid@^3.1.25:
-  version "3.1.25"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
-  integrity sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==
+nanoid@^3.1.30:
+  version "3.1.30"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
+  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -1819,6 +1814,11 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
@@ -1863,7 +1863,7 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-postcss-selector-parser@^6.0.2:
+postcss-selector-parser@^6.0.6:
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
   integrity sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==
@@ -1871,14 +1871,14 @@ postcss-selector-parser@^6.0.2:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss@^8.2.1:
-  version "8.3.7"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.7.tgz#ec88563588c8da8e58e7226f7633b51ae221eeda"
-  integrity sha512-9SaY7nnyQ63/WittqZYAvkkYPyKxchMKH71UDzeTmWuLSvxTRpeEeABZAzlCi55cuGcoFyoV/amX2BdsafQidQ==
+postcss@^8.3.5:
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.4.tgz#d53d4ec6a75fd62557a66bb41978bf47ff0c2869"
+  integrity sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==
   dependencies:
-    nanocolors "^0.1.5"
-    nanoid "^3.1.25"
-    source-map-js "^0.6.2"
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.1"
 
 prettier@^2.4.1:
   version "2.4.1"
@@ -1912,15 +1912,15 @@ pumpify@^1.3.5:
     inherits "^2.0.3"
     pump "^2.0.0"
 
-purgecss@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.0.3.tgz#8147b429f9c09db719e05d64908ea8b672913742"
-  integrity sha512-PYOIn5ibRIP34PBU9zohUcCI09c7drPJJtTDAc0Q6QlRz2/CHQ8ywGLdE7ZhxU2VTqB7p5wkvj5Qcm05Rz3Jmw==
+purgecss@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.1.2.tgz#0bbc21886f22f9fb74f899b29b7a79e4895b054f"
+  integrity sha512-e7Gz4nj4Lams6toFQ40YJiMrKWKE3nVPmdvhkJDxg8O/xj6gFudzrUa9qrQL+3DU0e8/c47MzxX9VXVbnPLR6A==
   dependencies:
-    commander "^6.0.0"
-    glob "^7.0.0"
-    postcss "^8.2.1"
-    postcss-selector-parser "^6.0.2"
+    commander "^8.0.0"
+    glob "^7.1.7"
+    postcss "^8.3.5"
+    postcss-selector-parser "^6.0.6"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -2172,10 +2172,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-source-map-js@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
-  integrity sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==
+source-map-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.1.tgz#a1741c131e3c77d048252adfa24e23b908670caf"
+  integrity sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==
 
 source-map-resolve@^0.5.0:
   version "0.5.3"
